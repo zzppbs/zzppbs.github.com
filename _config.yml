@@ -1,34 +1,45 @@
+markdown: kramdown
+pygments: true
 safe: false
 permalink: /posts/:title.html
 exclude:
   - README.md
 
-name: Your Name's Site
+name: 周志鹏的博客
+#host: zzppbs.githup.com
 host: localhost
-desc: Some description of your site.
+desc: 方向重于速度
 
 custom:
     category:
-        default: Default Category
-        another: Another Category
+       life: 生活
+       programing: 编程     
+       other: 其他
     categories:
-      - name:  default
-        title: Default Category
+      - name:  life
+        title: 生活
 
-      - name:  another
-        title: Another Category
-
+      - name:  programing
+        title: 编程
+        
+      - name:  other
+        title: 其他
+        
+		
     scrollingLoadCount: 2                          # 滚屏自动加载文章数量，“0”为关闭
 
 meta:
     author:
-        name: Your Name
-        email: your-email@example.com
+        name: ZZP
+        email: zzpzhouzhipeng@gmail.com
         disqus: your-disqus-short-name              # Disqus缩略标识
         gcse: 000346898720731947188:13h55x32l0y     # Google自定义搜索标识ID
-        github: your-github-account                 # GitHub账号
-        gravatar: 1cd8c12591616d8c22aaa624f8c07834  # Gravatar头像标识
-
+        github: zzppbs                 # GitHub账号
+        gravatar: 6ab59cd03304fbd36cbe7408646730b9 
+#1cd8c12591616d8c22aaa624f8c07834  # Gravatar头像标识
+#6ab59cd03304fbd36cbe7408646730b9
     disqus: disqus.com/embed.js                     # Disqus评论的JS地址
     gapi: http://www.google.com/jsapi               # Google API地址
     gravatar: http://en.gravatar.com/avatar/        # Gravatar头像服务器地址
+
+port: 5001	
